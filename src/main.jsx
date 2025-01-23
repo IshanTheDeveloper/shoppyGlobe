@@ -1,7 +1,7 @@
 import { StrictMode, lazy, Suspense } from "react";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
+import Checkout from "../components/checkout/checkout.jsx";
 const App = lazy(() => import("./App.jsx"));
 // Lazily loading the `App` component. This component will only be fetched when required, optimizing the app's initial load time.
 
@@ -148,6 +148,10 @@ const appRouter = createBrowserRouter([
             <Cart />
           </Suspense>
         ),
+      },
+      {
+        path: "/checkout",
+        element: <Checkout />,
       },
     ],
   },

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import useFetch from "../../src/utils/useFetch";
 import { useDispatch } from "react-redux";
 import { addItem } from "../../src/utils/cartSlice";
-
+import { Link } from "react-router-dom";
 function ProductDetails() {
   const dispatch = useDispatch();
   const { id } = useParams();
@@ -44,7 +44,10 @@ function ProductDetails() {
             <img src={product.images[0]} alt={product.title} />
             <div className="buy-now-buttons">
               <button onClick={handleCart}>Add to Cart</button>
-              <button>Buy Now</button>
+              <Link to="/checkout">
+                {" "}
+                <button> Buy Now</button>
+              </Link>
             </div>
           </div>
           <div className="product-details">

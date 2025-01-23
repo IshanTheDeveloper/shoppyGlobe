@@ -5,7 +5,7 @@ function ProductListCard(props) {
     <div className="product-list-cards">
       <div className="product-list-card">
         <div className="image-container">
-          <img src={props.url} />
+          <img src={props.url} width="80px" />
         </div>
         <h3>{props.name}</h3>
       </div>

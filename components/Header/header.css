@@ -44,3 +44,30 @@ body {
   left: 2.6vw;
   z-index: 10;
 }
+.navbar img {
+  width: 60px;
+}
+@media (max-width: 500px) {
+  .navbar {
+    justify-content: flex-start;
+    margin-left: 5vw;
+    gap: 2vw;
+  }
+  .navbar a {
+    font-size: 0.7rem;
+    padding: 0;
+    margin: 0;
+  }
+  .navbar img {
+    width: 30px;
+  }
+  .cart-text {
+    position: relative;
+    left: 5vw;
+    top: -2px;
+  }
+  body {
+    background-image: url("https://thumbs.dreamstime.com/b/neon-blue-shopping-cart-over-world-map-symbolizing-global-e-commerce-vertical-mobile-wallpaper-342077727.jpg");
+    background-size: 100vw 100vh;
+  }
+}

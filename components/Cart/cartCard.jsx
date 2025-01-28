@@ -22,8 +22,7 @@ function CartCard(props) {
     <div className="cart-card">
       {/* Displaying the product image */}
       <div className="cart-image">
-        <img src={props.url} alt={props.name} width="100px" />{" "}
-        {/* Product image */}
+        <img src={props.url} alt={props.name} /> {/* Product image */}
       </div>
 
       {/* Displaying the product details */}

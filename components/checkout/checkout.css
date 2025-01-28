@@ -93,3 +93,37 @@
     cursor: pointer;
   }
 }
+@media (max-width: 500px) {
+  .checkout-container {
+    width: 100vw;
+  }
+  .billing-container h3 {
+    font-size: 1.5rem;
+    color: white;
+  }
+  .billing-container2 {
+    width: 90vw;
+  }
+  .billing-name input {
+    width: 30vw;
+  }
+  .billing-address1 input,
+  .billing-address2 input {
+    width: 79vw;
+  }
+  .billing-address3 input {
+    width: 23vw;
+  }
+  .billing-contact-heading h2 {
+    color: rgb(20, 2, 2);
+    text-decoration: none;
+  }
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-info input {
+    margin: 1rem;
+    width: 75vw;
+  }
+}

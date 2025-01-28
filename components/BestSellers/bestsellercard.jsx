@@ -10,8 +10,7 @@ function BestsellerCard(props) {
     <div className="bestseller-card">
       {/* Displaying the product image */}
       <div className="bestseller-image">
-        <img src={props.url} alt="" width="40px" />{" "}
-        {/* Product image with dynamic source */}
+        <img src={props.url} alt="" /> {/* Product image with dynamic source */}
       </div>
 
       {/* Displaying the product name */}

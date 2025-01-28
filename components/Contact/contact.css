@@ -80,9 +80,15 @@
     color: white;
   }
 }
-@media (max-width: 890px) {
+@media (max-width: 500px) {
   .contact-page {
-    width: 75vw;
-    height: 40vh;
+    width: 80vw;
+    height: 60vh;
+  }
+  .submit-button button {
+    width: 30vw;
+  }
+  .contact-heading h1 {
+    color: white;
   }
 }

@@ -45,11 +45,24 @@ marquee {
   color: white;
   margin-top: 11vh;
 }
-@media (max-width: 900px) {
+.homepage-headings img {
+  width: 90px;
+}
+@media (max-width: 500px) {
   .homepage-image-card {
-    width: 50vw;
+    width: 70vw;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .homepage-image-card img {
+    margin-top: -40vh;
+  }
+  .homepage-headings {
+    margin-top: 7vh;
+    margin-left: 0vw;
+  }
+  .homepage-headings img {
+    width: 65px;
   }
 }

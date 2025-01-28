@@ -7,7 +7,7 @@ function NewreleaseCard(props) {
         <img src={props.url} alt="" width="40px" />
       </div>
       <h1>{props.name}</h1>
-      <h3>{props.brand}</h3>
+
       <div className="rating-price">
         <p>
           {" "}

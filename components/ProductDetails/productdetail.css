@@ -112,3 +112,41 @@
   line-height: 3.5vh;
   font-size: 1.1rem;
 }
+@media (max-width: 500px) {
+  .image-detail-container {
+    display: block;
+  }
+  .product-details {
+    display: block;
+  }
+  .product-detail-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .image-detail-container img {
+    width: 100vw;
+    height: 50vh;
+  }
+  .warranty-images img {
+    width: 15vw;
+  }
+  .warranty-images {
+    gap: 19vw;
+  }
+  .warranty-details {
+    gap: 4vw;
+    margin-left: -2vw;
+  }
+  .warranty-details p {
+    width: 30vw;
+  }
+  .customer-review-container {
+    flex-direction: column;
+    margin-bottom: 10vh;
+  }
+
+  .customer-review-card {
+    width: 85vw;
+  }
+}

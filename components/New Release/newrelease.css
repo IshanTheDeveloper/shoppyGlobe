@@ -16,12 +16,7 @@
   text-align: center;
   height: 10vh;
 }
-.newrelease-card h3 {
-  font-weight: 600;
-  padding-left: 0.3vw;
-  text-align: center;
-  margin-top: 1.5vh;
-}
+
 .rating-price {
   display: flex;
   justify-content: space-between;
@@ -69,12 +64,17 @@
   gap: 2vh;
   padding: 3rem;
 }
-@media (max-width: 890px) {
+@media (max-width: 500px) {
   .newrelease-card {
-    width: 50vw;
-    height: 50vh;
+    width: 70vw;
+    height: 65vh;
+    border: 5px solid grey;
   }
-  .newrelease-card h3 {
-    margin-top: -5vh;
+
+  .newrelease-card img {
+    width: 30vw;
+  }
+  .rating-price {
+    margin-top: 5vh;
   }
 }

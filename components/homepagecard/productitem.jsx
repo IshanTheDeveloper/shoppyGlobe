@@ -48,7 +48,6 @@ function ProductItem() {
         <img
           src="https://i.pinimg.com/originals/6d/b9/31/6db931827443a7455a4b805fe5829820.png"
           alt=""
-          width="90px"
         />
         <h1>ShoppyGlobe</h1>
       </div>

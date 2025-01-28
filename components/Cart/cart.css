@@ -84,3 +84,32 @@
     cursor: pointer;
   }
 }
+@media (max-width: 500px) {
+  .cart-card {
+    width: 90vw;
+  }
+  .cart-image {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+  }
+  .cart-image img {
+    width: 25vw;
+    height: 60%;
+  }
+  .cart-container1 h1 {
+    color: aqua;
+  }
+  .cart-container1 h1:nth-of-type(1) {
+    font-size: 2rem;
+    margin-top: 15vh;
+  }
+  .clear-button {
+    width: 24vw;
+    position: absolute;
+    top: 9vh;
+    left: 73vw;
+  }
+}

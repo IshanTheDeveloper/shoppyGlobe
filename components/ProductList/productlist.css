@@ -87,3 +87,32 @@
     cursor: pointer;
   }
 }
+@media (max-width: 500px) {
+  .search-product input {
+    width: 60vw;
+    padding: 1rem;
+  }
+  .search-product button {
+    width: max-content;
+    padding: 0.5rem;
+  }
+  .product-list-cards {
+    height: 30vh;
+  }
+  .product-list-card h3 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .image-container {
+    height: 30vh;
+  }
+  .product-list-card img {
+    margin-top: 10vh;
+  }
+  .product-detail-card1 a {
+    margin-top: -10vh;
+    margin-left: 35vw;
+    padding: 0.7rem;
+    width: 40vw;
+  }
+}

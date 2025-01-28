@@ -32,7 +32,6 @@ function Header() {
           <img
             src="https://cdn-icons-png.flaticon.com/128/1170/1170576.png"
             alt=""
-            width="60px"
             className="cart-images"
           />
         </Link>
